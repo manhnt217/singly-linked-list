@@ -65,6 +65,10 @@ public class ListInt {
 		}
 	}
 
+	/**
+	 * Remove all the elements greater than a threshold
+	 * @param threshold
+	 */
 	public void removeGreaterThan(int threshold) {
 		if (size == 0) return;
 		if (size == 1 && head.value > threshold) { // remove the only element (empty the list)
